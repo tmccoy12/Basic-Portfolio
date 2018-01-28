@@ -233,4 +233,190 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+ /* Media Response */
+
+@media (max-width: 980px) {
   
+  body {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #masthead {
+  padding: 0 35px 0 35px;
+  }
+
+  .auth-image {
+    width: 180px;
+  }
+
+  .main-section {
+    max-width: 58%;
+    margin-left: 35px;
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .sidebar {
+    max-width: 240px;
+    padding: 20px;
+    margin-right: 35px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #masthead {
+  padding: 0 30px 0 30px;
+  }
+
+   .main-section {
+    max-width: 628px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    max-width: 628px;
+    margin: 0 auto;
+  }
+
+  .sidebar {
+    max-width: 628px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+
+  .work {
+    position: relative;
+    float: left;
+    width: 245px;
+    margin: 20px 10px 20px 10px;
+    overflow: auto;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+
+}
+
+@media (max-width: 640px) {
+
+
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+
+  .auth-image {
+    width: 80%;
+    margin: 15px 10%;
+    float: none;
+}
+
+  #masthead {
+    position: static;
+    margin: 0 auto;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  nav {
+  float:left;
+  margin: 10px;
+  max-width: 525px;
+}
+
+  nav a {
+    padding: 0 45px;
+  }
+
+   .main-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #main-container {
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 525px;
+    margin: 0 auto;
+  }
+
+  .sidebar {
+    max-width: 525px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+.social {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 80%;
+    margin: 15px 10%;
+    overflow: auto;
+}
+  
+footer {
+  padding: 15px 0;
+}
+
+
+}
